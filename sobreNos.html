@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre Nós</title>
+    <link rel="stylesheet" href="./style/sobreNos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <header class="content">
+        <div class="top-header">
+            <div class="logo">
+                <figure><img src="./images/logo.svg" alt="" /></figure>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="cont">
+            <div class="bols">
+                <div class="bol" style="--i: 111"></div>
+                <div class="bol" style="--i: 200"></div>
+                <div class="bol" style="--i: 141"></div>
+                <div class="bol" style="--i: 11"></div>
+                <div class="bol" style="--i: 20"></div>
+                <div class="bol" style="--i: 401"></div>
+                <div class="bol" style="--i: 26"></div>
+                <div class="bol" style="--i: 60"></div>
+                <div class="bol" style="--i: 30"></div>
+            </div>
+        </div>
+
+        <div class="description-header" id="home">
+            <h1>Dupla Dinâmica</h1>
+            <div id="detalhe">
+                <div class="images-container">
+                    <img src="images/Greison.jpeg" id="img" alt="">
+                    <img src="images/trioNERD.jpeg" alt="" id="icones">
+                    <img src="images/JAVA.jpg" alt="java" id="javaImg">
+                </div>
+                <div id="text">
+                    <h2>Glêdson Levy</h2>
+                    <p>Tenho 16 anos, estudo na E.E.E.P Osmira Eduardo de Castro e estou cursando o segundo ano de
+                        Informática. Sou apaixonado por basquete, futebol e vôlei, e encontro grande satisfação em ler
+                        mangás, assistir animes e jogar videogames nas horas vagas. Minha verdadeira paixão, no entanto,
+                        é a programação, especialmente em Java e JavaScript. Pretendo explorar outras linguagens de
+                        programação e seguir carreira em Ciência da Computação, combinando teoria e prática para
+                        alcançar meus objetivos profissionais no vasto campo da tecnologia.</p>
+                </div>
+                <ul>
+                    <li><a href="https://www.instagram.com/gledsonlevy" target="_blank"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                    <li><a href="https://www.linkedin.com/in/glêdson-levy-oliveira-da-silva-0867752a2/"
+                            target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <li><a href="https://github.com/GledsonLevy" target="_blank"><i
+                                class="fa-brands fa-square-github"></i></a>
+                </ul>
+
+            </div>
+            <div id="detalhe2" style="display: none;">
+                <div class="images-container2">
+                    <img src="images/Pedin.jpeg" id="img" alt="">
+                    <img src="images/trioNERD.jpeg" alt="" id="icones2">
+                    <img src="images/JAVA.jpg" alt="java" id="javaImg2">
+                </div>
+                <div id="text2">
+                    <h2>Pedro Emanuel</h2>
+                    <p>Tenho 16 anos e estudo na E.E.E.P Osmira Eduardo de Castro. Sou dedicado e apaixonado pelo que
+                        faço, especialmente pelo desenvolvimento em Java, estou sempre em busca de novos conhecimentos e
+                        desafios. Além da paixão pela programação, gosto de assistir animes e jogar videogames nas horas
+                        vagas. Sou um pequeno leitor, apreciando tanto ficção quanto literatura técnica. Também adoro
+                        jogar xadrez, sou entusiasta de vôlei e futebol. Meu altruísmo e entusiasmo me torna uma
+                        referência em qualquer ambiente que frequento.</p>
+                </div>
+                <ul>
+                    <li><a href="https://www.instagram.com/pedro_.egf" target="_blank"><i class="fa-brands fa-square-instagram" class="icon"></i></a>
+                    <li><a href="https://www.linkedin.com/in/pedro-emanuel-gomes-freire-66895a2a5/" target="_blank"><i class="fa-brands fa-linkedin" class="icon"></i></a>
+                </ul>
+
+
+            </div>
+            <div id="btn" style="display: block;">
+                <button onclick="toggleCards()">Conhecer Pedro</button>
+
+            </div>
+            <div id="btn2" style="display: none;">
+                <button onclick="toggleCards()">Conhecer Glêdson</button>
+            </div>
+        </div>
+
+        <!--description-header-->
+        <div class="bols">
+            <div class="bol" style="--i: 111"></div>
+            <div class="bol" style="--i: 200"></div>
+            <div class="bol" style="--i: 141"></div>
+            <div class="bol" style="--i: 11"></div>
+            <div class="bol" style="--i: 10"></div>
+            <div class="bol" style="--i: 201"></div>
+            <div class="bol" style="--i: 26"></div>
+            <div class="bol" style="--i: 60"></div>
+            <div class="bol" style="--i: 30"></div>
+        </div>
+    </header>
+    <main class="content">
+        <section class="categorys">
+            <div class="description-categorys">
+                <div class="bols">
+                    <div class="bol" style="--i: 111"></div>
+                    <div class="bol" style="--i: 200"></div>
+                    <div class="bol" style="--i: 141"></div>
+                    <div class="bol" style="--i: 11"></div>
+                    <div class="bol" style="--i: 10"></div>
+                    <div class="bol" style="--i: 201"></div>
+                    <div class="bol" style="--i: 26"></div>
+                    <div class="bol" style="--i: 60"></div>
+                    <div class="bol" style="--i: 30"></div>
+                </div>
+                <div class="bols">
+                    <div class="bol" style="--i: 111"></div>
+                    <div class="bol" style="--i: 200"></div>
+                    <div class="bol" style="--i: 141"></div>
+                    <div class="bol" style="--i: 11"></div>
+                    <div class="bol" style="--i: 10"></div>
+                    <div class="bol" style="--i: 201"></div>
+                    <div class="bol" style="--i: 26"></div>
+                    <div class="bol" style="--i: 60"></div>
+                    <div class="bol" style="--i: 30"></div>
+                </div>
+        </section>
+        <!--categorys-->
+        <div class="bols">
+            <div class="bol" style="--i: 111"></div>
+            <div class="bol" style="--i: 200"></div>
+            <div class="bol" style="--i: 141"></div>
+            <div class="bol" style="--i: 11"></div>
+            <div class="bol" style="--i: 20"></div>
+            <div class="bol" style="--i: 401"></div>
+            <div class="bol" style="--i: 26"></div>
+            <div class="bol" style="--i: 60"></div>
+            <div class="bol" style="--i: 30"></div>
+        </div>
+        <div class="description-develop">
+            <div class="bols">
+                <div class="bol" style="--i: 111"></div>
+                <div class="bol" style="--i: 200"></div>
+                <div class="bol" style="--i: 141"></div>
+                <div class="bol" style="--i: 11"></div>
+                <div class="bol" style="--i: 10"></div>
+                <div class="bol" style="--i: 201"></div>
+                <div class="bol" style="--i: 26"></div>
+                <div class="bol" style="--i: 60"></div>
+                <div class="bol" style="--i: 30"></div>
+            </div>
+
+        </div>
+        </section>
+        <!--develops-->
+
+
+
+        <div class="bols">
+            <div class="bol" style="--i: 111"></div>
+            <div class="bol" style="--i: 200"></div>
+            <div class="bol" style="--i: 141"></div>
+            <div class="bol" style="--i: 11"></div>
+            <div class="bol" style="--i: 10"></div>
+            <div class="bol" style="--i: 201"></div>
+            <div class="bol" style="--i: 26"></div>
+            <div class="bol" style="--i: 60"></div>
+            <div class="bol" style="--i: 30"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="logo-footer">
+
+        </div>
+        <!--logo-footer-->
+
+        <div class="lists-footer">
+
+        </div>
+    </footer>
+</body>
+<script src="sobreNos.js"></script>
+
+</html>
